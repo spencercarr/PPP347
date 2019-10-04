@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script type="text/javascript" src="contactMe.js"></script>
     <link rel="stylesheet" type="text/css" href="indexCSS.css">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Spencer Carr</title>
@@ -38,19 +39,19 @@
 
     <footer>
         <div>
-            <div>
+            <div id="div1" class="form">
                 <h3>Contact Me</h3>
             </div>
-            <div>
-                <div>
-                    <form>
+            <div id="BigFormTime" class="notused">
+                <div class="CF">
+                    <form id="contact">
                         <label id="firstname">First Name</label>
                         <input type="text" name="firstname" required placeholder="Your name">
                         <label id="lastname">Last Name</label>
                         <input type="text" name="lastname" required placeholder="Your last name">
                         <label id="email">Email</label>
                         <input type="email" name="email" required placeholder="Your email">
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Submit" onclick="contactMe()">
                     </form>
                 </div>
             </div>
